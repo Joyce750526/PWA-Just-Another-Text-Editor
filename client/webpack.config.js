@@ -3,7 +3,6 @@ const WebpackPwaManifest = require("webpack-pwa-manifest");
 const path = require("path");
 const { InjectManifest } = require("workbox-webpack-plugin");
 
-
 module.exports = () => {
   return {
     mode: "development",
@@ -26,19 +25,21 @@ module.exports = () => {
       new InjectManifest({
         swSrc: "./src-sw.js",
         swDest: "src-sw.js",
+        // swDest: "service-worker.js",
       }),
 
       // Creates a manifest.json file.
       new WebpackPwaManifest({
-        fingerprints: false,
-        inject: true,
         name: "Just Another Text Editor",
         short_name: "JATE",
         description: "Anytime Note Saver!",
+        display: "standalone",
         background_color: "#225ca3",
         theme_color: "#225ca3",
         start_url: "./",
         publicPath: "./",
+        fingerprints: false,
+        inject: true,
         icons: [
           {
             src: path.resolve("src/images/logo.png"),
