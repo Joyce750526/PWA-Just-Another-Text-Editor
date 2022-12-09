@@ -82,13 +82,13 @@ To use this JATE Application. Please refer the following steps.
 
 **APP Has Installed Shown in the Finder on Mac** 
 
- <img src="Assets/screenshots/4-mac finder.png">
+ <img src="Assets/screenshots/4-mac-finder.png">
 
 <br>
 
 **Heroku Deployed Page** 
 
- <img src="Assets/screenshots/5-heroku desktop app .png">
+ <img src="Assets/screenshots/5-heroku-desktop-app.png">
 
 ---
 
