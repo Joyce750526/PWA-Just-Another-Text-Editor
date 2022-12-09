@@ -86,9 +86,15 @@ To use this JATE Application. Please refer the following steps.
 
 <br>
 
+**APP Has Installed Shown in the chrome://apps/** 
+
+ <img src="Assets/screenshots/5-app-installed-chrome-app-website.png">
+
+<br>
+
 **Heroku Deployed Page** 
 
- <img src="Assets/screenshots/5-heroku-desktop-app.png">
+ <img src="Assets/screenshots/6-heroku-desktop-app.png">
 
 ---
 
