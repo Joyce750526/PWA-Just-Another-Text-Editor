@@ -24,7 +24,7 @@
 
 ## Purpose:
 
-To create this simply offline application called `JATE- Just Another Text Editor` by following `Progressive Web Application` framework and utilizing `Webpack`, `Workbox`, and `indexDB` to store thee datab in the browser, and it can be used to a full functionality without internet connection. This application can be downloaded for your offline access.
+To create this simply offline application called `JATE- Just Another Text Editor` by following `Progressive Web Application` framework and utilizing `Webpack`, `Workbox`, and `indexDB` to store the data in the browser, and it can be used to a full functionality without internet connection. This application can be downloaded for your offline access.
 
 ---
 
@@ -36,18 +36,24 @@ To use this JATE Application. Please refer the following steps.
 
 
 2. You can also clone this package in your computer, and open in VS Code.
-* You need to follow the steps below to start/ finish the process.
+* You need to follow the steps below to start/ finish the process before installation.
 
-* `"scripts": {
-    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
-    "start": "npm run build && cd server && node server.js",
-    "server": "cd server nodemon server.js --ignore client",
-    "build": "cd client && npm run build",
-    "install": "cd server && npm i && cd ../client && npm i",
-    "client": "cd client && npm start"
+* <h3>"scripts"</h3>: {
+
+    1. **"start:dev"**: `"concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",`
+
+    2. **"start"**: "npm run build && cd server && node server.js",
+    3. **"server"**: `"cd server nodemon server.js --ignore client",`
+    
+    4. **"build"**: `"cd client && npm run build",`
+
+    5. **"install"**: `"cd server && npm i && cd ../client && npm i",`
+    
+    6. **"client"** : `"cd client && npm start"`
+    
     }`
 
-3. You can easily deploy this application on Heroku. 
+3. Lastly, you can easily deploy this application on Heroku. 
 
 ---
 
