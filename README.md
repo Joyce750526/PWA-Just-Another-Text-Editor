@@ -82,11 +82,21 @@ To use this JATE Application. Please refer the following steps.
 **APP Has Installed Shown in the Finder on Mac**
 
  <img src="Assets/screenshots/4-mac-finder.png">
+<<<<<<< HEAD
+=======
+
+<br>
+
+**APP Has Installed Shown in the chrome://apps/** 
+
+ <img src="Assets/screenshots/5-app-installed-chrome-app-website.png">
+>>>>>>> refs/remotes/origin/main
 
 <br>
 
 **APP Has Installed Shown in the chrome://apps/**
 
+<<<<<<< HEAD
  <img src="Assets/screenshots/5-app-installed-chrome-app-website.png">
 
 <br>
@@ -94,6 +104,9 @@ To use this JATE Application. Please refer the following steps.
 **Heroku Deployed Page**
 
 <img src="Assets/screenshots/6-heroku-desktop-app.png">
+=======
+ <img src="Assets/screenshots/6-heroku-desktop-app.png">
+>>>>>>> refs/remotes/origin/main
 
 ---
 
