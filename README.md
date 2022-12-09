@@ -34,33 +34,32 @@ To use this JATE Application. Please refer the following steps.
 
 1. You can open `https://joyce-text-editor.herokuapp.com/` in your browser and an install button will appear on the top left of the screen.
 
-
 2. You can also clone this package in your computer, and open in VS Code.
-* You need to follow the steps below to start/ finish the process before installation.
 
-* <h3>"scripts"</h3>: {
+- You need to follow the steps below to start/ finish the process before installation.
 
-    1. **"start:dev"**: `"concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",`
+- <h3>"scripts"</h3>: {
 
-    2. **"start"**: "npm run build && cd server && node server.js",
-    3. **"server"**: `"cd server nodemon server.js --ignore client",`
-    
-    4. **"build"**: `"cd client && npm run build",`
+  1. **"start:dev"**: `"concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",`
 
-    5. **"install"**: `"cd server && npm i && cd ../client && npm i",`
-    
-    6. **"client"** : `"cd client && npm start"`
-    
-    }`
+  2. **"start"**: "npm run build && cd server && node server.js",
+  3. **"server"**: `"cd server nodemon server.js --ignore client",`
 
-3. Lastly, you can easily deploy this application on Heroku. 
+  4. **"build"**: `"cd client && npm run build",`
+
+  5. **"install"**: `"cd server && npm i && cd ../client && npm i",`
+
+  6. **"client"** : `"cd client && npm start"`
+
+  }
+
+3. Lastly, you can easily deploy this application on Heroku.
 
 ---
 
 ## Screenshots:
 
 <br>
-
 
 **Localhost 3000**
 
@@ -80,15 +79,21 @@ To use this JATE Application. Please refer the following steps.
 
 <br>
 
-**APP Has Installed Shown in the Finder on Mac** 
+**APP Has Installed Shown in the Finder on Mac**
 
- <img src="Assets/screenshots/4-mac finder.png">
+ <img src="Assets/screenshots/4-mac-finder.png">
 
 <br>
 
-**Heroku Deployed Page** 
+**APP Has Installed Shown in the chrome://apps/**
 
- <img src="Assets/screenshots/5-heroku desktop app .png">
+ <img src="Assets/screenshots/5-app-installed-chrome-app-website.png">
+
+<br>
+
+**Heroku Deployed Page**
+
+<img src="Assets/screenshots/6-heroku-desktop-app.png">
 
 ---
 
